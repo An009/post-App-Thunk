@@ -2,7 +2,7 @@ import { createSlice, nanoid, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { sub } from "date-fns";
 
-const BASE_URL = 'http://jsonplaceholder.typicode.com/posts?userId=3'
+const BASE_URL = 'http://jsonplaceholder.typicode.com/posts'
 const initialState = {
     posts: [],
     status: 'idle', //loading / succeeded / failed 
